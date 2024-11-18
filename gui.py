@@ -137,7 +137,7 @@ class GUI:
         self.load_next_round()
 
     def show_stats(self):
-        accuracy = self.game.score / (len(self.game.people) * 3)
+        accuracy = self.game.score / ((self.game.round_num - 1) * 3)
         missed_names = "\n".join(self.game.missed)
         messagebox.showinfo(
             "Game Stats",
