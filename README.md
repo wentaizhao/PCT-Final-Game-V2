@@ -1,4 +1,5 @@
 # PCT Final Game
+***Note: These instructions are for Mac. Windows should be similar.***
 
 ## Setup 
 
@@ -32,18 +33,18 @@
 2. Right-click on the `gui.py` file and select **Get Info**.
 3. Under **General**, in the **Where** field, right-click the path and select **Copy as Pathname**.
 4. Open the Terminal app.
-5. Type `cd` followed by a space and the path you copied and hit enter (e.g. `cd /Users/wentaizhao/projects/PCT-Final-Game-V2-main`)
+5. Type `cd` followed by a `space` and the path you copied and hit enter (e.g. `cd /Users/wentaizhao/projects/PCT-Final-Game-V2-main`)
 6. Type `python ./gui.py` and hit enter (or `python3 ./gui.py`)
 
 ## Notes
 - Only type in lowercase letters
-- If they don’t have a minor, type none
+- If they don’t have a minor, type `none`
 - Some majors and minors are abbreviated. Common abbreviations include
     - bba
     - cs
     - econ
     - stats
-    - io
+    - ioe
     - ux
 - Check the `f24.csv` file to see all abbreviations
 - You can press the **Show Stats** button to see what you missed. You must close and reopen the window to refresh.
